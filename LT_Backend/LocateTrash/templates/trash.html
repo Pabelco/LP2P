@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        {% for trash in trashes %}
+            <h2>{{trash.nombre}}</h2>
+            <p>{{trash.longitud}}</p>
+            <p>{{trash.latitud}}</p>
+            <p>{{trash.calificacion}}</p>
+        {% endfor %}
+    </body>
+</html>
